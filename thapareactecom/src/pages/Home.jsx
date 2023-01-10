@@ -1,14 +1,12 @@
 import React from 'react'
-import styled from 'styled-components'
+import { HeroSection } from '../componets/HeroSection';
 
 export const Home = () => {
   return (
-    <Wrapper className='test'></Wrapper>
+    
+      <HeroSection/>
+    
     )
   };
   
-  const Wrapper = styled.section`
-  background-color:${({theme})=>theme.colors.bg};
-  
-  `;
  
