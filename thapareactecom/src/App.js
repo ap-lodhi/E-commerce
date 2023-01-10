@@ -10,6 +10,7 @@ import Cart from "./pages/Cart";
 import { ErrorPage } from "./pages/ErrorPage";
 import { GlobalStyle } from "./pages/GlobalStyle";
 import { ThemeProvider } from "styled-components";
+import { Header } from "./componets/Header";
 const App = () => {
 
   const theme ={
@@ -41,6 +42,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <Router>
         <GlobalStyle />
+        <Header/>
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
