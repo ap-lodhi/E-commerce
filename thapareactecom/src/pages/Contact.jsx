@@ -34,9 +34,9 @@ const Contact = () => {
   `;
 
   return (
-<h1>
-  contact
-</h1>
+<Wrapper>
+  
+</Wrapper>
   )
     
  
