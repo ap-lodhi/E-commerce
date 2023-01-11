@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
+import PageNavigation from "../componets/PageNavigation";
 import { useProductContext } from "../context/ProductContex";
-
+import {BiLoader} from "react-icons/bi"
 const API = "https://api.pujakaitem.com/api/products";
 const SingleProduct=()=>{
   const { getSingleProduct, isSingleLoading, singleProduct } = useProductContext();
@@ -15,7 +16,7 @@ const SingleProduct=()=>{
     company,
     price,
     description,
-    category,
+    category, 
     stock,
     stars,
     reviews,
@@ -24,9 +25,16 @@ const SingleProduct=()=>{
   useEffect(() => {
     getSingleProduct(`${API}?id=${id}`);
   }, []);
+  if(isSingleLoading){
+    return <h1 style={{textAlign:"center"}}>
+            <BiLoader width="100%"></BiLoader>
+            </h1>
+  }
 
   return (
-    <h1>single page {name}</h1>
+   <Wrapper>
+    <PageNavigation title={name}/>
+   </Wrapper>
   );
 }
 

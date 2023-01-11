@@ -7,7 +7,7 @@ import {BiLoader} from "react-icons/bi"
 const FeatureProduct = () => {
     const {isLoading, featureProducts} = useProductContext();
     if(isLoading){
-        return <h1>
+        return <h1 style={{textAlign:"center"}}>
             <BiLoader width="100%"></BiLoader>
             </h1>
     }
