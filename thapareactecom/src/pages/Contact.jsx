@@ -49,7 +49,7 @@ const Contact = () => {
            method="POST"    className="contact-inputs">
             <input
               type="text"
-              placeholder="username"
+              placeholder="user name"
               required
               autoComplete="off"
             />
