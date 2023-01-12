@@ -47,7 +47,7 @@ const SingleProduct=()=>{
             <MyImage imgs={image} />
           </div>
 
-          {/* product dAta  */}
+          {/* product data  */}
           <div className="product-data">
             <h2>{name}</h2>
             <p>{stars}</p>
@@ -106,6 +106,10 @@ const SingleProduct=()=>{
 const Wrapper = styled.section`
   .container {
     padding: 9rem 0;
+  }
+  .product_images{
+    display:flex;
+    align-items:center;
   }
   .product-data {
     display: flex;
