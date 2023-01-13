@@ -2,7 +2,13 @@ import React from "react";
 import styled from "styled-components";
 
 const Products = () => {
-  return <Wrapper></Wrapper>;
+  return <Wrapper>
+    <div className="container  grid grid-filter-column">
+      <div >
+        
+      </div>
+    </div>
+  </Wrapper>;
 };
 
 const Wrapper = styled.section`
