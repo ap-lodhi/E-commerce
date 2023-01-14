@@ -33,6 +33,7 @@ const AddToCart = ({product}) => {
             );
           })}
         </p>
+        <p></p>
       </div>
 
       {/* add to cart  */}
