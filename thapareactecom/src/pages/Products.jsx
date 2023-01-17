@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import FilterSection from "../componets/FilterSection";
-import ProductList from "../componets/ProductList";
+import ProductList from "../componets/ProductList"
 import Sort from "../componets/Sort";
 
 const Products = () => {
@@ -16,7 +16,9 @@ const Products = () => {
           <Sort/>
         </div>
         <div className="main-product">
-          <ProductList/>
+         <ProductList/>
+         
+         
         </div>
       </section>
     </div>
