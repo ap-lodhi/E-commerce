@@ -91,18 +91,19 @@ const FilterSection = () => {
 
         <div className="filter-color-style">
           {colorsData.map((curColor, index) => {
-//if(curColor === "all"){
-            //   <button
-            //   key={index}
-            //   type="button"
-            //   value={curColor}
-            //   name="color"
-            
-            //   // className="color-all--style"
-            //   onClick={updateFilterValue}>
-            //     all
-            // </button> 
-          //  }
+                if (curColor === "all") {
+                  return (
+                    <button
+                      key={index}
+                      type="button"
+                      value={curColor}
+                      name="color"
+                      className="color-all--style"
+                      onClick={updateFilterValue}>
+                      all
+                    </button>
+                  );
+                }
             return (
               <button
                 key={index}
