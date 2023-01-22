@@ -62,7 +62,7 @@ text-align: center;
       display: flex;
       flex-direction: column;
       gap: 3rem;
-
+      
       input[type="submit"] {
         cursor: pointer;
         transition: all 0.2s;
