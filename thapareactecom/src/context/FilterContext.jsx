@@ -54,9 +54,9 @@ const FilterContextProvider =({children})=>{
     return dispatch({ type: "UPDATE_FILTERS_VALUE", payload: { name, value } });
   };
    // to clear the filter
-  //  const clearFilters = () => {
-  //   dispatch({ type: "CLEAR_FILTERS" });
-  // };
+   const clearFilters = () => {
+    dispatch({ type: "CLEAR_FILTERS" });
+  };
 
   // to sort the product
   useEffect(() => {
@@ -70,9 +70,9 @@ const FilterContextProvider =({children})=>{
   }, [products]);
 
 
-    useEffect(()=>{
-        dispatch({type:"LOAD_FILTER_PRODUCTS",payload:products})
-    },[products])
+    // useEffect(()=>{
+    //     dispatch({type:"LOAD_FILTER_PRODUCTS",payload:products})
+    // },[products])
 
 
     return <FilterContext.Provider
@@ -81,7 +81,7 @@ const FilterContextProvider =({children})=>{
       setListView,
       sorting,
      updateFilterValue,
-      //clearFilters
+      clearFilters
       }}>
         {children}
     </FilterContext.Provider>
