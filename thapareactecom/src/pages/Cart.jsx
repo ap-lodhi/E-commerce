@@ -8,11 +8,10 @@ const Cart = () => {
    <div className="container">
     <div className="cart_hedaing grid grid-five-cloumn">
       <p>item</p>
-      <p className="cart-hide"></p>
+      <p className="cart-hide">price</p>
       <p>Quantity</p>
-      <p className="cart-hide"></p>
+      <p className="cart-hide">Subtotal</p>
       <p>Remove</p>
-      <p className="cart-hide"></p>
     </div>
    </div>
   </Wrapper>;
