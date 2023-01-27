@@ -6,14 +6,22 @@ const Cart = () => {
 
   return <Wrapper>
    <div className="container">
-    <div className="cart_hedaing grid grid-five-cloumn">
-      <p>item</p>
-      <p className="cart-hide">price</p>
-      <p>Quantity</p>
-      <p className="cart-hide">Subtotal</p>
-      <p>Remove</p>
-    </div>
-   </div>
+        <div className="cart_heading grid grid-five-column">
+          <p>Item</p>
+          <p className="cart-hide">Price</p>
+          <p>Quantity</p>
+          <p className="cart-hide">Subtotal</p>
+          <p>Remove</p>
+        </div>
+        <hr />
+
+        {/* <div className="cart-item">
+          {cart.map((curElem) => {
+            return <CartItem key={curElem.id} {...curElem} />;
+          })}
+        </div> */}
+      </div>
+   
   </Wrapper>;
 };
 
