@@ -1,8 +1,15 @@
 import styled from "styled-components";
+import { useCartContext } from "../context/CartContext";
 
 const Cart = () => {
+  const {cart} = useCartContext
+
   return <Wrapper>
-    <h1>dcsn</h1>
+   <div className="container">
+    <div className="cart_hedaing grid grid-five-cloumn">
+      <p>item</p>
+    </div>
+   </div>
   </Wrapper>;
 };
 
