@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import CartItem from "../componets/CartItem";
 import { useCartContext } from "../context/CartContext";
 
 const Cart = () => {
@@ -15,11 +16,11 @@ const Cart = () => {
         </div>
         <hr />
 
-        {/* <div className="cart-item">
+        <div className="cart-item">
           {cart.map((curElem) => {
             return <CartItem key={curElem.id} {...curElem} />;
           })}
-        </div> */}
+        </div>
       </div>
    
   </Wrapper>;
