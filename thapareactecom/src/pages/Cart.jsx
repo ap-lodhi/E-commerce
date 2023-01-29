@@ -3,7 +3,8 @@ import CartItem from "../componets/CartItem";
 import { useCartContext } from "../context/CartContext";
 
 const Cart = () => {
-  const {cart} = useCartContext
+  const {cart} = useCartContext()
+  console.log( "uuu",cart)
 
   return <Wrapper>
    <div className="container">
