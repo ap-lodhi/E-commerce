@@ -1,5 +1,13 @@
 # e-commerce
-E-commerce site with all the  functionality --> products -->single product page ---> add to cart 
+E-commerce site with all the  functionality
+---> products
+---> single product page
+---> add to cart
+---> sort by price 
+---> high to low 
+--->low to high 
+---> sort by color 
+--->sort by Brand Name
 
 
 # Deploy link 
