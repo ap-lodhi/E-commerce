@@ -4,7 +4,7 @@ import { useCartContext } from "../context/CartContext";
 
 const Cart = () => {
   const {cart} = useCartContext()
-  console.log( "uuu",cart)
+  // console.log( "uuu",cart)
 
   return <Wrapper>
    <div className="container">
