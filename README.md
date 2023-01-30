@@ -8,11 +8,12 @@
  E-commerce site with all the  functionality
 - products page
 - Detailed product preview page
--sort by Brand Name
+- sort by Brand Name
 - Filters for custom price
 - Sort functions for Higher to Lower price,Lower to Higher price and Search bar for finding the product by it's name.
 - Manual slider for product card.
 - Add to cart opt for buying products.
+-  Login with google and  github 
 
 
 
