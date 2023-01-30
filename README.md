@@ -1,19 +1,20 @@
-# e-commerce
-E-commerce site with all the  functionality
----> products
----> single product page
----> add to cart
----> sort by price 
----> high to low 
---->low to high 
----> sort by color 
---->sort by Brand Name
-
 
 # Deploy link 
 
 'https://clinquant-unicorn-c44fb9.netlify.app/'
 <hr/>
+
+## e-commerce
+ E-commerce site with all the  functionality
+- products page
+- Detailed product preview page
+-sort by Brand Name
+- Filters for custom price
+- Sort functions for Higher to Lower price,Lower to Higher price and Search bar for finding the product by it's name.
+- Manual slider for product card.
+- Add to cart opt for buying products.
+
+
 
 # product Page
 ![product](https://user-images.githubusercontent.com/87072168/215344512-89cc2a84-90e0-4acf-925f-d6c0b110a48b.JPG)
